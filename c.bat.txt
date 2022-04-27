@@ -1,0 +1,4 @@
+cl level1.c /c
+cl level2.c /c
+cl level3.c /c
+lib level1.obj level2.obj level3.obj /out:myblas.lib

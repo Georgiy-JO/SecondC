@@ -1,0 +1,4 @@
+gcc level1.c -c
+gcc level2.c -c
+gcc level3.c -c
+ar rcs   myblas.a   level1.o level2.o level3.o
